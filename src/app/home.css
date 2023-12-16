@@ -1,0 +1,16 @@
+.homeLayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.lists{
+    text-align: center;
+    padding: 1rem;
+}
+
+.lists>ul{
+    padding:1rem;
+}
