@@ -21,6 +21,13 @@ export default function Home() {
 
           </ul>)}
       </li>
+
+      <h3>
+        <Link href={'./products'}>Go to server Products</Link>
+      </h3>
+      <h3>
+        <Link href={'./productlist'}>Go to Client Products</Link>
+      </h3>
     </div>
   )
 }
