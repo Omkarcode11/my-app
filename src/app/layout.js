@@ -15,7 +15,7 @@ const metadata = {
 export default function RootLayout({ children }) {
   const router = useRouter()
   const pathName = usePathname()
-  console.log(pathName)
+  // console.log(pathName)
   return (
     <html lang="en">
       {pathName=='/login'?<body>{children}</body>:

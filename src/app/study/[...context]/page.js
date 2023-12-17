@@ -2,7 +2,7 @@
 import React from 'react'
 
 function DashBoard({params}) {
-    console.log(params)
+    // console.log(params)
   return (
     <div>
     <h2>DashBoard</h2>
