@@ -28,6 +28,9 @@ export default function Home() {
       <h3>
         <Link href={'./productlist'}>Go to Client Products</Link>
       </h3>
+      <h3>
+        <Link href={'./allproducts'}>Go to All Products</Link>
+      </h3>
     </div>
   )
 }
