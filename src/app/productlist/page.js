@@ -1,8 +1,9 @@
 'use client'
 import React, { useEffect, useState } from 'react'
+import style from './product.module.css'
 
 export default function page() {
-
+    let [toggle,setToggle] = useState(false)
     let [products,setProducts] = useState([])
 
     useEffect(()=>{
@@ -13,7 +14,8 @@ export default function page() {
     <div>
         <h1>Product List</h1>
         <ol>
-          {products.map(ele=><li >{ele.title}</li>)}
+          {products.map(ele=><li className={toggle?style.green:style.red}>{ele.title}</li>)}
+          <button onClick={()=>setToggle(!toggle)}>Change color</button>
         </ol>
     </div>
   )
